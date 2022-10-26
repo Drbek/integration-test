@@ -14,6 +14,23 @@
   .stepper__content{
     display: inline-block;
     padding: auto;
+    margin-right: 25px;
+
+
+
+  }
+  .stepper>li.uncompleted{
+    color: hsl(204deg 63% 84%);
+  }
+  .stepper>li.active{
+    font-weight: bold;
+    color: hsl(207deg 66% 41%);
+  }
+  .meta_description{
+    font-size: 12px;
+  }
+  .meta_title{
+    font-size: 16px;
   }
   .product_stepper_step_index{
     visibility:hidden;
@@ -57,4 +74,75 @@
 
     bottom: 300px; */
   }
- 
+ .meta_middle{
+  text-align: center;
+ }
+ [name|="9d8d8817-4b18-402c-aec5-b79abf3a6261"] {
+  visibility: hidden;
+}
+[name|="1f93f6a3-df6b-43cc-a339-bbc8789d5a1d"] {
+  visibility: hidden;
+}
+[name|="e8f3bc94-d950-45e6-8d7d-684833d0e100"] {
+  visibility: hidden;
+}
+[name|="f6558f04-9297-4e62-9600-e78e22ebd18d"] {
+  visibility: hidden;
+}
+input[type=radio]:checked+label{
+  border: 2px solid hsl(210deg 80% 84%);
+}
+ .MuiFormControlLabel-root-131{
+  display: inline-grid;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border: 0.5px solid hsl(213deg 44% 95%);
+  font-size: 12px;
+  height: 65px;
+  
+ }
+ .MuiFormGroup-root-129>.MuiFormControlLabel-root-131:has([name|="9d8d8817-4b18-402c-aec5-b79abf3a6261"]){
+  width: 18%;
+ }
+ .MuiFormGroup-root-129>.MuiFormControlLabel-root-131:has([name|="1f93f6a3-df6b-43cc-a339-bbc8789d5a1d"]){
+  width: 24.3%;
+ }
+ .MuiFormGroup-root-129>.MuiFormControlLabel-root-131:has([name|="e8f3bc94-d950-45e6-8d7d-684833d0e100"]){
+  width: 18%;
+ }
+ .MuiFormGroup-root-129>.MuiFormControlLabel-root-131:has([name|="f6558f04-9297-4e62-9600-e78e22ebd18d"]){
+  width: 18%;
+ }
+ .MuiButtonBase-root-126{
+  height: 0px;
+ }
+ .MuiFormGroup-root-129>.MuiFormControlLabel-root-131:hover  {
+  border: 2px solid hsl(210deg 80% 84%);
+ }
+ .radio_field_container {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+}
+.field_label{
+  margin-left: 166px;
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+
+}
+.button_container{
+  visibility: hidden;
+}
+.meta_bottom{
+  visibility: hidden;
+}
+.container{
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
